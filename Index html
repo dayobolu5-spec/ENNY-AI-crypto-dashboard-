@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enny AI Crypto Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <h1>Enny 🚀 AI Crypto Dashboard</h1>
+            <button id="connectWallet">Connect MetaMask</button>
+        </header>
+
+        <section id="cryptoPrices">
+            <h2>Live Prices</h2>
+            <div id="coins"></div>
+        </section>
+
+        <section id="charts">
+            <h2>24h Trends</h2>
+            <div id="miniCharts"></div>
+        </section>
+
+        <section id="airdrops">
+            <h2>Turbo Mode Airdrops</h2>
+            <button id="turboNotify">Turbo Notifications</button>
+            <div id="airdropsList"></div>
+        </section>
+
+        <section id="leaderboard">
+            <h2>Leaderboard</h2>
+            <div id="leaderboardList"></div>
+        </section>
+
+        <section id="profit">
+            <h2>Estimated Daily Profit</h2>
+            <div id="profitValue">0</div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>.
